@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect": "^3.7.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mime": "^4.0.3",
+    "mime-types": "^2.1.35",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0",
+    "serve-static": "^1.15.0",
+    "useful-date": "^0.0.6"
+  }
+}
