@@ -62,8 +62,9 @@ exports.getDossiers = function(req, res) {
 };
 
 exports.getDossier = function(req, res) {
-	var dossier = emailsParDossier[req.params.idDossier];
-	res.send(dossier);
+	var idDossier = req.params.idDossier;
+	var emails = emailsParDossier[idDossier]
+	res.send({value: idDossier, emails: emails});
 }
 
 exports.getMail = function(req, res) {
